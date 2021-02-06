@@ -1,0 +1,52 @@
+
+    #branches
+
+#make a new branch
+git checkout -b branch-name
+
+#switch to a new branch
+git checkout branch-name
+
+#list out branches
+git branch
+
+#pushing a new branch
+git push -u origin branch-name
+
+#pushing a branch (not new)
+git push origin branch-name
+
+#deleting a local branch
+git branch -d branch-name
+
+#deleting a remote branch
+git push origin --delete branch-name
+
+#copying contents of another branch
+git fetch origin other-branch
+
+#merging contents of new branch (fix conflicts)
+git merge origin/other-branch
+
+
+    #commit/repo info
+
+#gets current branch/commit information
+git status
+
+#discard local changes
+git reset --hard
+
+    #stashes
+
+#stashes away current commit
+git stash save
+
+#get list of stashed changes
+git stash list
+
+#revert back to last stash, remove stash
+git stash pop
+
+#revert back to last stash, save stash
+git stash apply

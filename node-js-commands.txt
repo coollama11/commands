@@ -1,0 +1,5 @@
+;install all dependencies for certain projects (should be used before start)
+npm install
+
+;start a projects
+npm start

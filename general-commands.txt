@@ -1,0 +1,35 @@
+;for depackaging deb files
+sudo dpkg -i package_name.deb
+
+;update all files
+sudo apt-get update
+
+;intall packages
+sudo apt-get install package-name
+
+;create executable from shell script
+chmod +x script-name
+
+;execute executable from shell script
+./script-name
+
+;unpack tarball
+tar zxvf name-of-tarball.tar.gz
+
+;general advice : install applications in usr/lib
+sudo mv application-to-move /usr/lib
+
+;print path var
+echo $PATH 
+
+;adding dir to $PATH - temporarily
+export PATH="/path/to/file:$PATH"
+
+;adding dir to $PATH - permanentely
+nano ~/.bashrc
+
+;modifying configuration ~/.bashrc file
+export PATH="/path/to/file:$PATH"
+
+;saving changes to ~/.bashrc file
+source ~/.bashrc

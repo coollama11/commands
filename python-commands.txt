@@ -1,0 +1,5 @@
+;opens python3 repl
+python3
+
+;opens jupyter notebook
+jupyter notebook
